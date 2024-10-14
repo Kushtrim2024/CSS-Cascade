@@ -25,25 +25,25 @@ Diese Übung besteht aus einer Reihe von CSS Kaskaden- und Vererbungsrätseln.
 Beantworte die folgenden Fragen direkt hier in der README:
 
 - Warum ist der Text des `<span>` Elements fett?
-- **Weil das <span> Element nimmt das Atribute von Elternelement main.**
+- *Weil das <span> Element nimmt das Atribute von Elternelement main.*
 <span>main {
         font-weight: bold;
            }
 </span>
 - Warum ist der Text der `<h2>` und `<p>` Elemente rot?
-- **Weil die Elemente `<h2>`  und `<p>` nehmen das Atribute von Elternelement main.**
+- *Weil die Elemente `<h2>`  und `<p>` nehmen das Atribute von Elternelement main.*
 <span>main {
         color: red;
            }
 </span>
 - Warum ist der Text des `<span>` Elements nicht rot?
-- **Weil die `<p>` Elemente sind im gleichen Ebene und im style wird die letzte Programmierzeile übernommen.**
+- *Weil die `<p>` Elemente sind im gleichen Ebene und im style wird die letzte Programmierzeile übernommen.*
 - Warum haben `<h2>`, `<p>` und `<span>` jeweils keinen Rand?
-- **Weil nur die Äußere Rand gegeben ist.**
+- *Weil nur die Äußere Rand gegeben ist.*
 - Wenn du Zeile 17 auskommentierst, warum bleibt das `<span>` blau?
-- **Weil die `<p>` Elemente sind im gleichen Ebene und im style wird die letzte Programmierzeile übernommen.**
+- *Weil die `<p>` Elemente sind im gleichen Ebene und im style wird die letzte Programmierzeile übernommen.*
 - Wenn du Zeile 18 auskommentierst, warum wird das `<span>` grün?
-- **Weil !important wird ALLE vorherigen Stilregeln für diese bestimmte Eigenschaft dieses Elements überschrieben!**
+- *Weil !important wird ALLE vorherigen Stilregeln für diese bestimmte Eigenschaft dieses Elements überschrieben!*
 
 ### Aufgabe 4
 
